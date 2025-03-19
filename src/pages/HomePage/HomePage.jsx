@@ -33,7 +33,7 @@ const bannerCountries = [
     wallpaper: `https://del5h2y0q6wga.cloudfront.net/country_images/philippines.jpg`,
   },
   {
-    id: 7,
+    id: 4,
     name: '태국',
     wallpaper: `https://del5h2y0q6wga.cloudfront.net/country_images/thailand.jpg`,
   },

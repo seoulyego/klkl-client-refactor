@@ -38,7 +38,7 @@ export default function MainBanner({ contents }) {
           return (
             <StyledContainer
               key={content.id}
-              $url={content.wallpaper}
+              $url={`https://del5h2y0q6wga.cloudfront.net/country_images/${content.id}.jpg`}
               onClick={() => navigateWithState(navigate, 'countries', content)}
               className="carousel-cell"
             />
@@ -59,7 +59,6 @@ MainBanner.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
-      wallpaper: PropTypes.string.isRequired,
     })
   ).isRequired,
 }
