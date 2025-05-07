@@ -8,6 +8,7 @@
 ## 📋 목차
 
 1. **네트워크 요청 개선**
+2. **Vite 번들링 압축**
 
 ## ✨ 네트워크 요청 개선
 
@@ -29,6 +30,19 @@
 ### ✅ After
 
 <img src="https://github.com/user-attachments/assets/dca473e3-91d0-4c9c-8c99-30d3e6267381">
+
+---
+
+## 🎁 Vite 번들링 압축
+
+번들 분석 툴을 활용하여 패키지의 사이즈를 분석하고 불필요하게 큰 패키지들을 작은 단위로 import하여 번들의 사이즈를 최적화합니다.
+
+### ✅ Before (vite-bundle-analyzer)
+
+<img width="1536" alt="스크린샷 2025-05-07 오후 10 55 51" src="https://github.com/user-attachments/assets/ad35c24b-4f16-42c1-9ac6-9af060562f53" />
+
+
+### ✅ After
 
 ---
 
