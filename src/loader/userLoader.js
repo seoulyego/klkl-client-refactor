@@ -3,12 +3,13 @@ import kyInstance from '@utils/kyInstance'
 const userLoader = async ({ params }) => {
   const { id } = params
 
-  try {
-    const response = await kyInstance.get(`members/${id}`).json()
-    return response
-  } catch (error) {
-    throw Error(`${error.response.status}`)
+  const response = await kyInstance.get(`members/${id}`).json()
+
+  if (!response.ok) {
+    throw new Error(`${response.status}`)
   }
+
+  return response
 }
 
 export default userLoader

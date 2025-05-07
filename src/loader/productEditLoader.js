@@ -1,19 +1,23 @@
 import kyInstance from '@utils/kyInstance'
 
-const productLoader = async ({ params }) => {
+const productEditLoader = async ({ params }) => {
   const { id } = params
 
-  try {
-    const clientData = await kyInstance.get('me').json()
-    const productData = await kyInstance.get(`products/${id}`).json()
+  const clientRequest = kyInstance.get('me').json()
+  const productRequest = kyInstance.get(`products/${id}`).json()
 
-    if (clientData.data.id !== productData.data.member.id)
-      throw new Response('Forbidden', { status: 403 })
+  const responseData = await Promise.all([clientRequest, productRequest]).catch(
+    (error) => {
+      throw Error(`${error.response.status}`)
+    }
+  )
+  const clientData = responseData[0]
+  const productData = responseData[1]
 
-    return productData
-  } catch (error) {
-    throw Error(`${error.response.status}`)
-  }
+  if (clientData.data.id !== productData.data.member.id)
+    throw new Response('Forbidden', { status: 403 })
+
+  return productData
 }
 
-export default productLoader
+export default productEditLoader
