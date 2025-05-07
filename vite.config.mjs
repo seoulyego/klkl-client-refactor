@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite'
+import { analyzer } from 'vite-bundle-analyzer'
 import react from '@vitejs/plugin-react'
 import eslint from 'vite-plugin-eslint'
 import path from 'path'
 
 export default defineConfig({
-  plugins: [react(), eslint()],
+  plugins: [react(), eslint(), analyzer()],
   resolve: {
     alias: [
       {

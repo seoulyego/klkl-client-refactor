@@ -54,6 +54,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:6.26.2"],\
           ["styled-components", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:6.1.13"],\
           ["vite", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:5.4.8"],\
+          ["vite-bundle-analyzer", "npm:0.20.1"],\
           ["vite-plugin-eslint", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:1.8.1"],\
           ["zustand", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:4.5.5"]\
         ],\
@@ -4575,6 +4576,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:6.26.2"],\
           ["styled-components", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:6.1.13"],\
           ["vite", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:5.4.8"],\
+          ["vite-bundle-analyzer", "npm:0.20.1"],\
           ["vite-plugin-eslint", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:1.8.1"],\
           ["zustand", "virtual:67db5ed624082b42cd56c7ecca75bf4baff63760eefb59b3d57ed775a7eb6c4ec2e5790e77c5f297decf434393ac0efe400139b47e75ac363b5363c733538e60#npm:4.5.5"]\
         ],\
@@ -7473,6 +7475,15 @@ const RAW_RUNTIME_STATE =
           "stylus",\
           "sugarss",\
           "terser"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vite-bundle-analyzer", [\
+      ["npm:0.20.1", {\
+        "packageLocation": "./.yarn/cache/vite-bundle-analyzer-npm-0.20.1-81ef1ef700-5babc78a18.zip/node_modules/vite-bundle-analyzer/",\
+        "packageDependencies": [\
+          ["vite-bundle-analyzer", "npm:0.20.1"]\
         ],\
         "linkType": "HARD"\
       }]\

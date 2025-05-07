@@ -3644,6 +3644,7 @@ __metadata:
     react-router-dom: "npm:^6.26.2"
     styled-components: "npm:^6.1.13"
     vite: "npm:^5.4.8"
+    vite-bundle-analyzer: "npm:^0.20.1"
     vite-plugin-eslint: "npm:^1.8.1"
     zustand: "npm:^4.5.5"
   languageName: unknown
@@ -5747,6 +5748,15 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 10c0/23b1597c10adf15b26ade9e8c318d8cc0abc9ec0ab5fc7ca7338da92e89c2536abd150a5891bf076836c352fdfa104fc7231fb48f806fd9960e0cbe03601abaf
+  languageName: node
+  linkType: hard
+
+"vite-bundle-analyzer@npm:^0.20.1":
+  version: 0.20.1
+  resolution: "vite-bundle-analyzer@npm:0.20.1"
+  bin:
+    analyze: dist/bin.js
+  checksum: 10c0/5babc78a18df2adc0b07f4f9cf6bd44fdec084213479dff3df788f721803cb9167b7ca3bd0f9687caf0ce3ed74520e064f9c48a1e3427075fef5eeae68728879
   languageName: node
   linkType: hard
 
